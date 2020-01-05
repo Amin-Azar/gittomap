@@ -39,7 +39,7 @@ root.mainloop()
 
 
 #---GET REPO AND THEN USER LOCATOIN-----------------------------------------------------
-repo_api="https://api.github.com/search/repositories?q="+search_pat.replace(" ","+")
+repo_api="https://api.github.com/search/repositories?q="+search_pat.replace(" ","+")+"&per_page=100"
 response = requests.get(repo_api)
 json_data = json.loads(response.text)
 
@@ -73,7 +73,10 @@ for loc in locs:
             loc_3Code.append(country_data[0]["alpha3Code"])
     else:
         not_found = not_found +1
-print(str(len(locs))+" #Data Collected! Not founds="+str( float(100* not_found)/float(len(locs)))+"%")
+
+print(locs)
+print(loc_3Code)
+print(str(len(locs))+" #Data Collected! "+str(len(locs))+" #Data Plotting!"+" Not founds="+str( float(100* not_found)/float(len(locs)))+"%")
 #---COUNT--------------------------------------------------------------------------------
 loc_3Code_dic = {i:loc_3Code.count(i) for i in loc_3Code}
 
