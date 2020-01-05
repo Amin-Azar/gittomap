@@ -11,8 +11,8 @@ Search github for projects with a given text and plot the location of the owners
 
 
 
-![Sample search result](./repo_input.png)
-![Sample search result](./repo_locations.png)
+![Sample search result](./resources/repo_input.png)
+![Sample search result](./resources/repo_locations.png)
 
 ## Contributing
 
