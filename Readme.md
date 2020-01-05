@@ -1,6 +1,7 @@
 # Where GitHub Projects Located ?!
 
 Search github for projects with a given text and plot the location of the owners on a map.
+Check the result [here](https://amin-azar.github.io/gittomap/)
 
 ### Steps
 
@@ -9,10 +10,8 @@ Search github for projects with a given text and plot the location of the owners
 3. Gets 3Code for extracted countries (i.e. China -> CHN)
 4. Plots and shows that in default browser under for example http://127.0.0.1:60685/
 
-
-
-![Sample search result](./resources/repo_input.png)
-![Sample search result](./resources/repo_locations.png)
+<div style="text-align:center"><img src="./resources/repo_input.png" /></div>
+<iframe width="100%" height="300" frameborder="0" scrolling="no" src="res.html" border="0"></iframe>
 
 ## Contributing
 
