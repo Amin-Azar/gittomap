@@ -1,4 +1,4 @@
-# GitHub Projects Locations
+# Where GitHub Projects Located ?!
 
 Search github for projects with a given text and plot the location of the owners on a map.
 
@@ -18,6 +18,3 @@ Search github for projects with a given text and plot the location of the owners
 
 Please feel free to ask for features or contribute to this project.
 
-## License
-
-This project is licensed under the MIT License.
